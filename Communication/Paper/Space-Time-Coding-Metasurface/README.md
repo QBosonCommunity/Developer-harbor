@@ -192,18 +192,18 @@ $${A}_{pq}^{total} = w_{main}A_{pq}(\theta_{0},\varphi_{0}) + w_{side}\frac{1}{K
 
 ### 五、建模步骤总结
 
-<img src="images/media/image1.png" style="width:7.45278in;height:3.18472in" />
+<img src="images/image1.png" style="width:7.45278in;height:3.18472in" />  
 
 ### 六、CIM真机(KaiWU-CPQC-550)求解性能分析
 
 > **注：由于CIM真机限制(数据比特不超过550bit)，仅进行M, N, L,n-bit=8\*8\*4\*2的情况求解(原论文为8\*8\*8\*2)**
 
 #### 1.参数设置及程序执行结果
-<img src="images/media/image2.png" style="width:3.62523in;height:2.48453in" /> <img src="images/media/image3.png" style="width:3.5936in;height:2.4885in" />
+<img src="images/image2.png" style="width:3.62523in;height:2.48453in" /> <img src="images/image3.png" style="width:3.5936in;height:2.4885in" />
 
 #### 2.真机求解最优相位配置
 
-<img src="images/media/image4.png" style="width:6.8237in;height:2.44273in" />
+<img src="images/image4.png" style="width:6.8237in;height:2.44273in" />
 
 #### 3.结果解码及可视化
 
@@ -219,7 +219,7 @@ $${A}_{pq}^{total} = w_{main}A_{pq}(\theta_{0},\varphi_{0}) + w_{side}\frac{1}{K
 
 2.核心性能指标计算过程
 
-<img src="images/media/image5.png" style="width:7.45208in;height:3.31736in" />
+<img src="images/image5.png" style="width:7.45208in;height:3.31736in" />
 
 3.性能指标可视化​
 
@@ -227,17 +227,17 @@ $${A}_{pq}^{total} = w_{main}A_{pq}(\theta_{0},\varphi_{0}) + w_{side}\frac{1}{K
 
 极坐标图：直观呈现主瓣指向（−14.9<sup>∘</sup>）与旁瓣分布，主瓣功率归一化为 1.0，旁瓣最大值为 0.0846：直角坐标图：标注目标角度（−14.5<sup>∘</sup>）、主瓣角度（−14.9 <sup>∘</sup>）、3dB 波束宽度（13.27<sup>∘</sup>）及旁瓣抑制比（−10.72 dB），量化性能指标。
 
-<img src="images/media/image6.png" style="width:3.88912in;height:2.90985in" /><img src="images/media/image7.png" style="width:2.8375in;height:2.91528in" />
+<img src="images/image6.png" style="width:3.88912in;height:2.00985in" /><img src="images/image7.png" style="width:2.8375in;height:2.01528in" />
 
 #### 4.性能分析
 
 > 1.与论文原始算法的性能对比
 
-<img src="images/media/image8.png" style="width:7.45208in;height:1.89028in" />
+<img src="images/image8.png" style="width:7.45208in;height:1.89028in" />
 
 > 2.时间性能对比
 
-<img src="images/media/image9.png" style="width:7.45417in;height:0.96042in" />
+<img src="images/image9.png" style="width:7.45417in;height:0.96042in" />
 
 > 3.维度可扩展性
 >
